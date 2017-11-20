@@ -1,4 +1,4 @@
-#What a command line is, and what it does:
+#What a command line is, and what it does:#
 
 A command line is a tool that looks like a little black window that you can type specific commands into, one line at a time. It's not like Siri or google, so you can't type anything you like, only the specific commands it understands. Further down the page, I have provided a list of 10 of these commands and what they do.
 
@@ -8,17 +8,17 @@ A command line is a tool that looks like a little black window that you can type
 
  *To summarise*: The command line is a text interface for the computer's operating system. To access the command line, we use the terminal.
 
- ##10 Terminal Commands and What They Do:
+ ##10 Terminal Commands and What They Do:##
 
-  ###pwd
+  ###pwd###
 
  This shows you the Working Directory (current folder) that you are in, and if you type it into your terminal, it will respond by telling you the folder that you are currently situated in - this is useful if you want to make a new folder or file, and you want to know where you are making it to make sure you're not putting it in the wrong place
 
- ###ls
+ ###ls###
 
  This command, when typed into the terminal, will make the command line look at the folder you are currently in, and list all the files and folders inside of it
 
-###cd
+###cd###
 
  This command stands for Change Directory. Say you are in a main folder that has other folders inside of it, to do that, you would type cd followed by the name of the folder inside of it that you want to go to.
  This is the equivalent of looking at a list of folders and clicking on the one you want to go to. 
@@ -30,7 +30,7 @@ A command line is a tool that looks like a little black window that you can type
  If your pwd was displayed as animals, to navigate to the tabby folder you could type : **cd cats/tabby/**
 
 If you then wanted to go back to cats, you could type:
-###cd ..
+**cd ..**
 
 where the ".." means go back to the parent folder, (the one that the folder you are in now, is inside of)
 
@@ -39,23 +39,23 @@ You could also combine the two. if you are in the folder called tabby, but you w
 cd../ginger
 (".." to go back to cats, "/ginger" to get into ginger)
 
-###mk dir
+###mk dir###
 
 This command stands for **make directory** and it allows you to make a new folder inside the folder you are currently in. If you were in the folder "cats" and wanted to make a folder called "persian" then you would type:
 
 mk dir persian 
 
-###touch
+###touch###
 
 This command is similar to mk dir, but instead of making a folder, it will make a file. The same logic is used, if you are in the folder "persian" and you wanted to create a text document called "persian.txt" then you would type
 
 touch persian.txt
 
-#####All of the 5 commands above are used for navigating the file system, *pwd* to show the folder you're in, *ls* to list what that folder contains, *cd* to change the folder you are in, *mk dir* to make a new folder inside the one you are in, and *touch* to make a new file inside your current folder.
+#####All of the 5 commands above are used for navigating the file system, *pwd* to show the folder you're in, *ls* to list what that folder contains, *cd* to change the folder you are in, *mk dir* to make a new folder inside the one you are in, and *touch* to make a new file inside your current folder.######
 
 Below are some commands for *manipulating* these folders and/or files.
 
-###cp
+###cp###
 
 This command copies files or folders. It does this by copying them from one place to another.
 
@@ -74,13 +74,13 @@ to make a copy of persian.txt appear in the favecats folder.
 
 The cp command can be even more useful when you use wildcards, but I won't delve into that right now.
 
-###mv
+###mv###
 
 The mv command stands for move, and you use it to move files and folders from one location to another. It is very similar to the cp command with the way it works. You type mv followed by the name of the file you want to move, followed by the location you want to move it to, which is usually a folder. if the folder is in a different folder than the file you want to move, you'll have to remember to use the correct combination of ".." to go back a folder and /subfoldername/ for subfolders
 
 it can also be used to rename a file just like you would with your mouse and the menus that you can see on your screen when you use your computer every day. to use the mv tag to rename a file, simply type: mv followed by the name of the file you want to rename, followed by the new name you want it to have (remember to use the same file extension eg. .txt unless you want it to be a different kind of file)
 
-###rm
+###rm###
 
 The rm command is used to remove (delete) files and folders. This can be done by typing rm followed by the name of the folder or file that you wish to delete. it makes it easier if you are in the same folder that the file or folder you are trying to delete is in, because then you don't have to use ".." and "/" to tell the computer which  file or folder you are looking for.
 
@@ -89,7 +89,7 @@ you could also type rm -r followed by the name of a folder you would like to del
 **Remember: there is no command to undo the deletion of files and folders, deletion is permanent, so don't delete anything that you will want back in the future.** 
 
 
-###git init
+###git init###
 
 The git init command is used to initiate a .git repository. That does sound like a bunch of jargon, so to simplify it, this command will create a special folder which will act as a library of sorts. Inside this folder will be another folder called .git and in there is where the main copy of anything you put in there will actually stay, but only once changes to the other copy of it that you have outside of the .git folder, and inside the folder you just created,  have been saved, and then committed, will they be allowed to affect the copy in there.
 
@@ -105,13 +105,17 @@ The git init command is used to initiate a .git repository. That does sound like
 
  But I digress.
 
-###exit
+###exit###
 
 You can use the exit command to close the black box (the command line) and leave the terminal, which will enable you to get on with whatever else you are doing on your computer.
 
 simply type: exit 
 then hit enter, 
 and you will have vanquished your terminal, which will log you out, and fade away into the ether. For now.
+
+Thank you for your time!
+
+by Tat
  
 
 
